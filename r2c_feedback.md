@@ -9,6 +9,7 @@
 - No instructions for unittest.sh
 - How is output.json handled on large scale? Will it be uploaded in the database
     and overridden with each run of the analyzer for every project?
+- How to find the constants for the results analyzer?
 
 ## Tool
 
@@ -20,3 +21,8 @@
 - Couldn't r2c push, because of [docker
     error](https://github.com/docker/for-linux/issues/711), this could be
     resolved by starting the docker daemon with `dockerd -s overlay`
+- Couldn't connect to postgresql server:
+    ```
+    psql: FATAL:  password authentication failed for user "notebook_user"
+    FATAL:  password authentication failed for user "notebook_user"
+    ```
