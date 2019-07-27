@@ -15,6 +15,8 @@
 
 - Every programming language can be used to run the analysis -> big plus
 - Offer to upload a script/program to recreate input data over the Web interface
+- Use latest commit, when no commit_hash is specified in input.json. Don't know
+    if this already is the case though.
 
 ## Troubleshooting
 
