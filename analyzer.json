@@ -1,0 +1,15 @@
+{
+    "analyzer_name": "beta/flip1995-clippy",
+    "author_name": "Philipp Krones",
+    "author_email": "hello@philkrones.com",
+    "version": "0.0.2",
+    "spec_version": "1.2.0",
+    "dependencies": {
+        "public/source-code": "*"
+    },
+    "type": "commit",
+    "output": {
+        "type": "json"
+    },
+    "deterministic": true
+}

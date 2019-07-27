@@ -1,0 +1,508 @@
+{
+  "name": "crates-io",
+  "version": "0.0.1",
+  "description": "Crates from crates.io",
+  "readme": null,
+  "inputs": [
+    {
+      "repo_url": "https://github.com/rust-random/rand",
+      "commit_hash": "40dbb5449f99673f3cef9991d8b7616ab5226c3b",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/rust-lang/libc",
+      "commit_hash": "2b01f7e67322175e05f25325e6e941aa9a3ddeae",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/bitflags/bitflags",
+      "commit_hash": "de303080cfbac7a65a9fdba78b332cf6fbf4857f",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/rust-lang-nursery/lazy-static.rs",
+      "commit_hash": "8a5f404fc86585bcf9dcc756c401a49c4a8bf2c2",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/rust-lang/log",
+      "commit_hash": "c098145024ca6f291770b685c1602d2dc2c28c70",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/serde-rs/serde",
+      "commit_hash": "3ae2bee272cd51ca65162646185043046751dc6d",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/dtolnay/syn",
+      "commit_hash": "b48a2b922e19968c3335fa8fd5a27eadbfa4414f",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/rust-lang/regex",
+      "commit_hash": "341f207c1071f7290e3f228c710817c280c8dca1",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/rust-lang/regex",
+      "commit_hash": "341f207c1071f7290e3f228c710817c280c8dca1",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/dtolnay/quote",
+      "commit_hash": "8a3353e5e7f50f49487bf34ff483577795ad6e3d",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/BurntSushi/rust-memchr",
+      "commit_hash": "665fffcc9506ac1cd93339470d2ca4b018e648c6",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/rust-num/num-traits",
+      "commit_hash": "58f02a8677c13ad5d46d0eb0698d9052ca70ef73",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/unicode-rs/unicode-xid",
+      "commit_hash": "4baae9fffb156ba229665b972a9cd5991787ceb7",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/retep998/winapi-rs",
+      "commit_hash": "46aa861d606b21ded202a606b1351214ea899fa3",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/BurntSushi/aho-corasick",
+      "commit_hash": "fa956e606269f61cda244fe15f6e88967516a8ec",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/alexcrichton/cfg-if",
+      "commit_hash": "0619303d24082ccabd92a4d0ab5e82d0e4905cb9",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/BurntSushi/byteorder",
+      "commit_hash": "058237661a88c2f610f280340310fce19d98d265",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/serde-rs/json",
+      "commit_hash": "e3a2c3af66f4b62b110d032528a6e42d99dc3206",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/BurntSushi/utf8-ranges",
+      "commit_hash": "b7c73859eb0507d378b9d0a4d9ae2a0c653267f7",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/Amanieu/thread_local-rs",
+      "commit_hash": "8c956ed8642175f1a3afc409bf5f8844d3ea994a",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/serde-rs/serde",
+      "commit_hash": "3ae2bee272cd51ca65162646185043046751dc6d",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/rust-lang/time",
+      "commit_hash": "a5483d86f835cae91d759f0f28eb86492e3b7fee",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/dtolnay/itoa",
+      "commit_hash": "80c60941d626f0c6e34503fe4ccaa485469de61f",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/seanmonstar/num_cpus",
+      "commit_hash": "3a8994ba3a1f8210bfc04efae9d2c81f6b5e428e",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/rust-random/rand",
+      "commit_hash": "40dbb5449f99673f3cef9991d8b7616ab5226c3b",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/steveklabnik/semver",
+      "commit_hash": "fc78b4eafad6bf184730ecd86d9d5ae5888f8c09",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/alexcrichton/proc-macro2",
+      "commit_hash": "ff38409ee23340c0656168e35ab4e1c70c03bc9e",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/sebasmagri/env_logger/",
+      "commit_hash": "efe01e0295b58e4e46a6706bc04c1aba802b7b3a",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/rust-lang/rustc-serialize",
+      "commit_hash": "71b8d6ef874cb53209406824317575c06a7727e0",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/servo/rust-url",
+      "commit_hash": "f491cb442edab75be54ff5961af6458a474f1f9a",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/alexcrichton/cc-rs",
+      "commit_hash": "85bc5b9fce81177ed8024e5241136417c6008db8",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/rust-lang/pkg-config-rs",
+      "commit_hash": "387310aa5a721de43cebfa20804f90143183ac75",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/retep998/winapi-rs",
+      "commit_hash": "46aa861d606b21ded202a606b1351214ea899fa3",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/rust-num/num-integer",
+      "commit_hash": "bcce4ccbb293e3c6eee0098a1f74a0479739a48c",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/dguo/strsim-rs",
+      "commit_hash": "cc25041cc1aa583fa890c15bf2920a6dd952190a",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/SimonSapin/rust-std-candidates",
+      "commit_hash": "df2edec638128c35a4cf55aac73314ef2be03bf4",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/retep998/winapi-rs",
+      "commit_hash": "46aa861d606b21ded202a606b1351214ea899fa3",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/unicode-rs/unicode-normalization",
+      "commit_hash": "7c23cc9380f5255d81e39b49ebbc695476891555",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/alexcrichton/toml-rs",
+      "commit_hash": "63a3354007d4c3edbd8065e70cabb486714ebb2f",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/reem/rust-void.git",
+      "commit_hash": "a6e061227f47ba8798b7e828ed0ac4e25382eb15",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/rust-lang/backtrace-rs",
+      "commit_hash": "0a23f48950916877a0379771fd6f1560fee6b93b",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/crossbeam-rs/crossbeam",
+      "commit_hash": "7e2e2a67e8231c93a2dcaf95a15406babae31ccf",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/alicemaz/rust-base64",
+      "commit_hash": "15ed64d671129c76b8d613fb230cebffd3af10b4",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/servo/unicode-bidi",
+      "commit_hash": "4fc3449e460e5fb7794e923a4cce6700eb8d9e81",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/servo/rust-smallvec",
+      "commit_hash": "830d32bbdb7dc858d1f81d662fe6dd06219f0647",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/seanmonstar/unicase",
+      "commit_hash": "8a93c809b061615bfa1021e9ab3bd115b8f3b1cc",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/clap-rs/clap",
+      "commit_hash": "784524f7eb193e35f81082cc69454c8c21b948f7",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/servo/rust-url/",
+      "commit_hash": "f491cb442edab75be54ff5961af6458a474f1f9a",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/crossbeam-rs/crossbeam",
+      "commit_hash": "7e2e2a67e8231c93a2dcaf95a15406babae31ccf",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/softprops/atty",
+      "commit_hash": "0e6ef0422750c8d24f3e34695758684f48b7a27e",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/carllerche/slab",
+      "commit_hash": "f1327f72fb14fb387e07a6123300eb7a9da7c4e8",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/alexcrichton/rustc-demangle",
+      "commit_hash": "de656cdd0b41e5163e2a73e51d800fea3804b8d9",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/Kimundi/rustc-version-rs",
+      "commit_hash": "1d692a965f4e48a8cb72e82cda953107c0d22f47",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/reem/rust-unreachable.git",
+      "commit_hash": "a4bff7446ff946dec7ff45b30868264dcd477c01",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/unicode-rs/unicode-width",
+      "commit_hash": "ff4923ab40d1bc13922b049a0ad04c61b447345d",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/chronotope/chrono",
+      "commit_hash": "1935cc1a18345d19b2ecb09cf014505eb24374b1",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/dtolnay/dtoa",
+      "commit_hash": "f85ce455acab97570f27f79a19c263c2d1d5bef1",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/rust-lang-nursery/error-chain",
+      "commit_hash": "7e16fd2aa577ee51fe6b01b2bd0a38c7adf765ad",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/hyperium/hyper",
+      "commit_hash": "a543c8eef2046999b54978cfc91be2663b743b23",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/ogham/rust-ansi-term",
+      "commit_hash": "6755eaa7a1977caabf3013db3a3e08e11acface9",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/alexcrichton/gcc-rs",
+      "commit_hash": "85bc5b9fce81177ed8024e5241136417c6008db8",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/crossbeam-rs/crossbeam",
+      "commit_hash": "7e2e2a67e8231c93a2dcaf95a15406babae31ccf",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/sfackler/rust-openssl",
+      "commit_hash": "dbe0672dc468a89a7c03411fcba1a329c2c050b6",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/bluss/scopeguard",
+      "commit_hash": "5792dbfbeaa125978a5c96cce52695f0cc6c34d9",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/contain-rs/vec-map",
+      "commit_hash": "ab48d099d857ff983c31617a18055306940418ab",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/alexcrichton/backtrace-rs",
+      "commit_hash": "0a23f48950916877a0379771fd6f1560fee6b93b",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/rust-num/num",
+      "commit_hash": "f0022772f69f979043be2c823eeb19741dee79ae",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/hyperium/mime",
+      "commit_hash": "65ea9c3d0cad4cb548b41124050c545120134035",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/bluss/arrayvec",
+      "commit_hash": "e68c0c7b48dbcdf41e856ada3c5dae5998fb977b",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/bluss/arrayvec",
+      "commit_hash": "e68c0c7b48dbcdf41e856ada3c5dae5998fb977b",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/sfackler/rust-openssl",
+      "commit_hash": "dbe0672dc468a89a7c03411fcba1a329c2c050b6",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/uuid-rs/uuid",
+      "commit_hash": "33dca9ea8e477f1a817fc5dcfbbc754ac6a66aae",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/servo/rust-url/",
+      "commit_hash": "f491cb442edab75be54ff5961af6458a474f1f9a",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/steveklabnik/semver-parser",
+      "commit_hash": "2df014d92a7444e3d12808673f1efa1827edc410",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/BurntSushi/ucd-generate",
+      "commit_hash": "faf428c6997b232d957f4048a88c0ed154bde881",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/mgeisler/textwrap",
+      "commit_hash": "065a782bb7d035443a0bac5e6de488cd00ac93ff",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/indiv0/lazycell",
+      "commit_hash": "a030cde79725ea76f8aa3848b5d06ae97e933bff",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/rust-lang-nursery/futures-rs",
+      "commit_hash": "0805eacf138b1285a528e5b879514c83143c8591",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/Amanieu/parking_lot",
+      "commit_hash": "6e343f2b9e64b5f13491db5820ccafa4e985746c",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/rust-num/num-iter",
+      "commit_hash": "b4ac220345d50db93e10a9580c9d4a0801dd2046",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/SergioBenitez/version_check",
+      "commit_hash": "2cd670b24696665eba7df4840eadb538c8ebae11",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/Amanieu/parking_lot",
+      "commit_hash": "6e343f2b9e64b5f13491db5820ccafa4e985746c",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/bluss/either",
+      "commit_hash": "44361c1c19e7ab5fc35db950d231b595c475e309",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "http://github.com/tailhook/quick-error",
+      "commit_hash": "aadd84f9481dddb5f6c04743d1be0672a0589dc8",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/seanmonstar/httparse",
+      "commit_hash": "6f696f5d027f35e11a70181c839b574e20335a74",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/carllerche/bytes",
+      "commit_hash": "ae7d88458251616bfc4c8e576b1df8e3d1f0be48",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/rust-lang-nursery/net2-rs",
+      "commit_hash": "eda403f03033b58560d81b821f0df822f50cde4d",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/bluss/rust-itertools",
+      "commit_hash": "cbfd6e33e9039c533c39cf920b1acec8786be48f",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/carllerche/mio",
+      "commit_hash": "cd7331ad05972f477af78157924e46869dae61f6",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/Stebalien/term",
+      "commit_hash": "c09946b15899d3ad5b2b9ae5c356afe71a38398d",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/servo/rust-fnv",
+      "commit_hash": "2ca7554508beb26d7b3f817008d0e58da367d227",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/Gilnaa/memoffset",
+      "commit_hash": "eeacd4253c21b58099a9af8488bfb51f3c75719f",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/BurntSushi/termcolor",
+      "commit_hash": "6284c2e4100ce1999800d2eab39c964e1efc081c",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/rust-lang/tempdir",
+      "commit_hash": "403f918d9f3708ca144c727d20d2c1f8738767fc",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/dtolnay/ryu",
+      "commit_hash": "a0e85ea2eafbc23989ecfac1139b098d26155aee",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/Kimundi/owning-ref-rs",
+      "commit_hash": "bc8b8d61905dd3bd6af019e09faa41d561171d9f",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/alexcrichton/flate2-rs",
+      "commit_hash": "dfb1082207b60b6a0a6d66d1c76d73e54464cde1",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/carllerche/iovec",
+      "commit_hash": "b54dfbe145d41385ac8826819b3603ed27cd7612",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/BurntSushi/walkdir",
+      "commit_hash": "7c7013259eb9db400b3e5c7bc60330ca08068826",
+      "input_type": "GitRepoCommit"
+    },
+    {
+      "repo_url": "https://github.com/storyyeller/stable_deref_trait",
+      "commit_hash": "fd23b7e97303a3ff2471527344e9071d2b89feee",
+      "input_type": "GitRepoCommit"
+    }
+  ]
+}
